@@ -1,6 +1,6 @@
 const takeUntil = function(array, callback) {
 array.indexOf(callback)
-console.log(array.indexOf(callback)) 
+return array.indexOf(callback)
 }
 //const data1 = [1, 2, 5, 7, 2, -1, 2, 4, 5];
 takeUntil([1, 2, 5, 7, 2, -1, 2, 4, 5], x => x < 0);

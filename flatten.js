@@ -8,7 +8,18 @@ if(a.length !== b.length)
     }
     return true
   }
-
-  assertEqual(eqArrays([1, 2, 3], [1, 2, 3]), true); 
-  assertEqual(eqArrays([1, 3, 3], [1, 2, 3]), true); 
-  module.exports = flatten
+  const flatten = function(array) {
+    let newArray = [];
+    array.forEach(function(element){
+      if (array.isArray(element)=== false){
+        newArray.push(element);
+      } else {
+        for (let i = 0; i < element.length; i++) {
+          newArray.push(element[i]);
+        }
+      }
+    });
+    return newArray;
+   };
+  
+   module.exports = flatten
