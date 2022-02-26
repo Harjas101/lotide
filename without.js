@@ -1,6 +1,5 @@
-const eqArrays = require('./eqArrays')
-const assertEqual = require('./assertEqual')
-  
+const assertArraysEqual = require('./assertArraysEqual')
+
 // a(is the source) b(is the itemsToRemove)
 const without = function(a,b){
   for(let i =0 ; i < a.length; i++){

@@ -29,3 +29,16 @@ The following functions are currently implemented:
 const head   
 const tail   
 const middle 
+const countOnly
+const countLetters
+const letterPositions
+const findKeyByValue
+const eqObjects
+const eqArrays
+const assertArraysEqual
+const assertEqual
+const map
+const takeUntil
+const findKey
+const without
+const flatten

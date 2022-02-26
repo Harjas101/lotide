@@ -1,6 +1,5 @@
 const assertEqual = require('./assertEqual')
-  //Create a function called countLetters.
-
+ 
   const countLetter = function (string) {
     let letterObject = {};
     let noSpaces = string.split(' ').join('');
