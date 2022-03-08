@@ -36,6 +36,7 @@ const findKeyByValue
 const eqObjects
 const eqArrays
 const assertArraysEqual
+const assertObjectsEqual
 const assertEqual
 const map
 const takeUntil
